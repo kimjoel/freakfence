@@ -16,8 +16,8 @@
     <link href="assets/css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-    <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/javascripts/jquery.min.js"></script>
+  <script src="assets/javascripts/modernizr.custom.js"></script>
   
 
   
@@ -26,8 +26,8 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
+      <script src="assets/javascripts/html5shiv.js"></script>
+      <script src="assets/javascripts/respond.min.js"></script>
     <![endif]-->
   </head>
 
@@ -59,13 +59,13 @@
   <div id="headerwrap">
     <div class="container">
       <div class="logo">
-        <img src="assets/images/logo.png">
+        <%= image_tag("logo.png") %>
       </div>
       <br>
       <div class="row">
-        <h1>MINIMAL THEME</h1>
+        <h1>FREAKFENCE</h1>
         <br>
-        <h3>Hello, I'm Carlos. I love design.</h3>
+        <h3>Hello, I'm a message bouncer bot. I will protect your mind from freaky messages.</h3>
         <br>
         <br>
         <div class="col-lg-6 col-lg-offset-3">
@@ -86,11 +86,11 @@
         
         <!-- INTRO INFORMATIO-->
         <div class="col-lg-6 col-lg-offset-3">
-          <p>A full time theme crafter based in Madrid, Spain. I love designing beautiful, clean and user-friendly interfaces for websites.</p>
-          <p>My passion is turning good ideas and products into eye-catching sites.</p>
-          <p>Sometimes I blog about design and web trends. Also I share links and my thoughts on <a href="http://twitter.com/BlackTie_co">Twitter</a>. Need a free handsome bootstrap theme? <a href="http://blacktie.co">Done!</a></p>
-          <p>I'm available for freelance jobs. Contact me now.</p>
-          <p><button type="button" class="btn btn-warning">I HAVE A FREELANCE JOB</button></p>
+          <p>A full time bouncer bot. My passion is to keep your inbox clean of freaks and creeps.</p>
+          <p>You list key words and phrases that you want filtered. Messages containing those will be swiftly annihilated before they can poison your eyes and you lose hope in humans.</p>
+          <p><a href="http://twitter.com/BlackTie_co">Twitter</a>. Try the demo account! <a href="http://blacktie.co">Done!</a></p>
+          <p>I'm available for any kind of messaging or dating site. Discreet and personal. Contact me now.</p>
+          <p><button type="button" class="btn btn-warning">Custom Filtering</button></p>
         </div>                
       </div>
     </div><!-- /container -->
@@ -110,13 +110,13 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active centered">
-                <img class="img-responsive" src="app/assets/images/c1.png" alt="">
+                <%= image_tag("c1.png", class: "img-responsive", alt: "App screengrab 1") %>
               </div>
               <div class="item centered">
-                <img class="img-responsive" src="app/assets/images/c2.png" alt="">
+                <%= image_tag("c2.png", class: "img-responsive", alt: "App screengrab 2") %>
               </div>
               <div class="item centered">
-                <img class="img-responsive" src="app/assets/images/c3.png" alt="">
+                <%= image_tag("c3.png", class: "img-responsive", alt: "App screengrab 3") %>
               </div>
             </div>
             <br>
@@ -137,13 +137,13 @@
   <div id="f">
     <div class="container">
       <div class="row">
-        <h3>CONTACT ME</h3>
+        <h3>CONTACT THE WIZARD BEHIND THE BOT</h3>
         <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
         
         <div class="col-lg-6 col-lg-offset-3">
-          <p>Some Avenue, 987<br/>Madrid, Spain<br/>+34 8984-4343</p>
-          <p>iam@awesomemail.com</p>
-          <p><button type="button" class="btn btn-warning">YEAH! CONTACT ME NOW!</button></p>
+          <p>Sydney<br/>NSW, Australia<br/>+61 490 079 843</p>
+          <p>joel@wtx.com.au</p>
+          <p><button type="button" class="btn btn-warning">CONTACT THE WIZARD</button></p>
         </div>
       </div>
     </div>
